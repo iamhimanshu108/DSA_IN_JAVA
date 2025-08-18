@@ -22,5 +22,6 @@ public class ProfitLoss {
         } else {
             System.out.println("No profit No Loss");
         }
+        
     }
 }
