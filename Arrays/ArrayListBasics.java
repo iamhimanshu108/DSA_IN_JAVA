@@ -12,5 +12,13 @@ public class ArrayListBasics {
         arr.add(10);
 
         System.out.println(arr.get(2));
+
+        int n = arr.size();
+        for (int i=0; i<n; i++){
+            System.out.println(arr.get(i)+" ");
+        }
+        for(int ele : arr){
+            System.out.println(ele+ " ");
+        }
     }
 }
